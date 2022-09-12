@@ -52,8 +52,168 @@ a{
  button{
    display:  inline-block;
    font-size: 15px;
-   padding: 15px 40px;
-   border:  1px solid #fff;
-   
+   padding: 8px 20px;
+   border-radius: 20px;
+   color: rgb(228, 118, 27);
+   text-transform: uppercase;
+   font-weight: 300;
+   background-color:black;
+   width: 150px;
+   height: 40px;
  }
- /*showcase*/
+
+ #navbar {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+ }
+
+ #navbar a{
+    color: rgb(219, 113, 8);
+ }
+
+ #navbar .logo{
+    float: left;
+    padding: 15px;
+  
+ }
+
+ #navbar img{
+    height: 40px;
+    border-radius: 8px;
+
+ }
+
+ #navbar ul{
+    list-style: none;
+    float: right;
+ }
+
+ #navbar ul li{
+    float: left;
+ }
+
+ #navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+ }
+ .principal{
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;/*alinear desde el inicio*/
+    justify-content: space-around;
+ }
+ .presentacion{
+    display: flex; /*tener flexibilidad en la pantalla*/
+    flex-direction: column; /* alinearlo en columna*/
+    margin: 100px;/*margen de los lados*/
+    gap: 30px;/*espacio entre ellos*/
+ }
+ .presentacion h1{
+    color: rgb(233, 103, 10);
+ }
+
+ .imagenperfil{
+    display: flex; /*tener flexibilidad en la pantalla*/
+    flex-direction: column; /* alinearlo en columna*/
+    margin: 100px;/*margen de los lados*/
+ }
+
+ /*segunda seccion*/
+  #Skills{
+    background-color: antiquewhite;
+  }
+
+ .container h2{
+    color: rgb(249, 105, 3);
+    font-size: large;
+    padding: 20px;
+ }
+
+ .proyects-row1{
+    padding: 30px;
+    display: flex; /*tener flexibilidad en la pantalla*/
+    flex-direction: row; /* alinearlo en columna*/
+    margin: 10px;/*margen de los lados*/
+    gap: 300px;
+ }
+ .proyect-row-detail2 img{
+    border-radius: 50px;
+ }
+ 
+ /*TERCERA SECCION*/
+ #proyectos{
+    background-color: lightblue;
+ }
+ .proyects-row2{
+    padding: 30px;
+    display: flex; /*tener flexibilidad en la pantalla*/
+    flex-direction: row; /* alinearlo en columna*/
+    margin: 10px;/*margen de los lados*/
+    gap: 70px;
+ }
+/*Registros de usuarios*/
+#registro{
+    background-color: darkkhaki;
+}
+.container2{
+    padding: 30px;
+    display: flex; /*tener flexibilidad en la pantalla*/
+    flex-direction: row; /* alinearlo en columna*/
+    margin: 10px;/*margen de los lados*/
+    gap: 100px;
+}
+
+.register{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.register input{
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.register textarea{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+.imagen img{
+    border-radius: 30px;
+}
+#registro h2{
+    color: chocolate;
+}
+/*ultima parte*/
+#redesociales{
+    background-color: cornflowerblue;
+}
+
+.container3{
+    padding: 30px;
+    display: flex; /*tener flexibilidad en la pantalla*/
+    flex-direction: row; /* alinearlo en columna*/
+    margin: 10px;/*margen de los lados*/
+    gap: 500px;
+}
+.links img{
+    width: 500px;
+    height: 90px;
+    border-radius: 30px;
+    
+}
+.github img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+
+
+
+
